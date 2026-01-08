@@ -75,6 +75,8 @@ body {
   color: var(--color-white);
 }
 
+
+
 /* ===============================
    TYPOGRAPHY
 ================================ */
@@ -103,7 +105,7 @@ h3 {
 p {
   max-width: 600px;
   font-weight: 300;
-  color: #093127;
+  
 }
 .section-title {
   color: black;
@@ -406,6 +408,7 @@ section {
   font-size: 0.9rem;
 }
 
+
 /* ===============================
    INTRO SECTION
 ================================ */
@@ -414,6 +417,11 @@ section {
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
+  
+}
+
+#our {
+  color: black;
 }
 
 .intro-image img {
@@ -421,8 +429,13 @@ section {
   display: block;
 }
 
+.section-title {
+  color: white;
+}
 
-
+.collect {
+  color: black;
+}
 /* Image */
 
 
@@ -460,7 +473,6 @@ section {
 
 
 
-
 /* ===============================
    VALUES
 ================================ */
@@ -470,6 +482,9 @@ section {
   gap: 2.5rem;
   text-align: center;
 }
+
+
+
 
 /* ===============================
    TESTIMONIALS
@@ -879,4 +894,13 @@ section {
 /* Slide header up */
 .site-header.header-hidden {
   transform: translateY(-100%);
+}
+
+
+.intro {
+  color: white;
+}
+
+.section-light {
+  color: black;
 }
