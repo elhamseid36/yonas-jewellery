@@ -155,7 +155,7 @@ p {
 
   z-index: 1000; /* stays above all content */
    
-  background: linear-gradient(to bottom, #0b2418 0%, #0e2a1c 50%, #0b2418 100%);
+  background-color: white;
 
   min-height: 150px; /* taller header for luxury feel */
 
