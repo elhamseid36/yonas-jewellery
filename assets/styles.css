@@ -154,8 +154,8 @@ p {
   top: 0;
 
   z-index: 1000; /* stays above all content */
-
-  background-color:  #ffffff;;/* your header bg */
+   
+  background: linear-gradient(to bottom, #0b2418 0%, #0e2a1c 50%, #0b2418 100%);
 
   min-height: 150px; /* taller header for luxury feel */
 
@@ -247,13 +247,13 @@ p {
 
   .site-header {
 
-    min-height: 70px;
+    max-height: 100px;
 
   }
 
   .site-header .logo img {
 
-    height: 190px;
+    height: 151px;
 
   }
 
