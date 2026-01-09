@@ -377,6 +377,10 @@ section {
   color: white
 }
 
+.hero-content h3 {
+  color: white;
+  font-weight: 700;
+}
 .hero p {
   margin-bottom: 2rem;
 }
