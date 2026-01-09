@@ -155,7 +155,7 @@ p {
 
   z-index: 1000; /* stays above all content */
    
-  background-color: white;
+  background: linear-gradient(to right, rgb(0, 12, 7) 50%, rgb(69, 105, 76));
 
   min-height: 150px; /* taller header for luxury feel */
 
@@ -368,8 +368,7 @@ section {
   background: linear-gradient(
     rgba(0, 0, 0, 0.35),
     rgba(0, 0, 0, 0.35)
-  ),
-  url('') center/cover no-repeat;
+  );
   color: var(--color-white);
 }
 
